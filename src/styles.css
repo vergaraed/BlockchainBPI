@@ -9,9 +9,9 @@ body {
    height: 100%;
    font-family: 'Source Sans Pro', calibri, Arial, sans-serif !important;
    min-height: 550px;
-   color:yellow
+   color:rgb(255, 255, 255)
 }
-footer { color: yellow }
+footer { color: rgb(255, 255, 255) }
 .content {
    flex: 1 0 auto;
 }

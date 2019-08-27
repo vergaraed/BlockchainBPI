@@ -17,4 +17,5 @@ export class ProductsComponent implements OnInit {
     this.response = this.cryptReserveSvc.isAlive();
   }
 
+
 }
