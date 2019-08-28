@@ -3,10 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-
-  // AWS Amplify deploy on Git checkin - URL of development API
-  apiUrl: 'http://localhost:3000'
+  production: false
 };
 
 /*
