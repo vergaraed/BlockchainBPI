@@ -3,7 +3,7 @@ ul {list-style-type: none; padding: 0;}
 li {display: inline-block;}
 a {
     border: 1px solid #666666;
-    background: #e7e2e2; border-radius: 5px;
+    background: #008300; border-radius: 3px;
     box-shadow: 1px 1px 5px rgb(145, 127, 30);
     color: rgb(37, 39, 48);
     font-weight: bold;

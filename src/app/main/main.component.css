@@ -1,0 +1,21 @@
+.mainlist {
+    text-align: left;
+    width: 100;
+    border: 1px solid green;
+}
+.mainlist ul {
+    border: 2px solid red;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 2px;
+}
+.mainlist li {
+    display: inline-block;
+}
+.mainlist li a {
+    display: inline-block;
+    background: #444;
+    color: #FFF;
+    padding: 5px;
+    text-decoration: none;
+}

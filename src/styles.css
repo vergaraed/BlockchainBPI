@@ -9,7 +9,7 @@ body {
    height: 100%;
    font-family: 'Source Sans Pro', calibri, Arial, sans-serif !important;
    min-height: 550px;
-   color:rgb(255, 255, 255)
+   color:rgb(203, 252, 203)
 }
 footer { color: rgb(255, 255, 255) }
 .content {
@@ -19,3 +19,10 @@ footer {
    padding: 10px 0;
    text-align: center;
 }
+.container li {
+   /* for IE below version 7 use `width` instead of `max-width` */
+   text-align: center;
+   max-width: 800px;
+   margin-right: auto;
+   margin-left: auto;
+ }
