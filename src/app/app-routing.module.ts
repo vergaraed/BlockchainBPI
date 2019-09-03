@@ -3,6 +3,8 @@ import { RouterModule } from '@angular/router';
 import { ProductsComponent } from './products/products.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
+import { MainComponent } from './main/main.component';
+
 import { CommonModule } from '@angular/common';
 
 
@@ -11,7 +13,8 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     RouterModule.forRoot([
-      { path: '', redirectTo: '/productComponent', pathMatch: 'full' },
+      { path: '', redirectTo: '/mainComponent', pathMatch: 'full' },
+      {path: 'mainComponent', component: MainComponent },
       { path: 'productComponent', component: ProductsComponent },
       { path: 'serviceComponent', component: ServicesComponent },
       { path: 'contactComponent', component: ContactComponent }
