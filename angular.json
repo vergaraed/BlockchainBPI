@@ -21,6 +21,7 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
+	      "src/assets/img/blockchainbpi_icon.ico",
               "src/assets"
             ],
             "styles": [
