@@ -2,14 +2,14 @@
 body {
    margin: 0 auto;
    max-width: 1000px;
-   background: url('assets/img/MerkleForest.jpg') no-repeat center;
+  /* background: url('assets/img/MerkleForest.jpg') no-repeat center; */
    background-size:     cover;                      /* <------ */
    display: flex;
    flex-direction: column;
    height: 100%;
    font-family: 'Source Sans Pro', calibri, Arial, sans-serif !important;
    min-height: 550px;
-   color:rgb(203, 252, 203);
+   color:rgb(8, 8, 8);
 }
 footer { color: rgb(255, 255, 255) }
 .content {
