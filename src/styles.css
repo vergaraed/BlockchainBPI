@@ -2,14 +2,26 @@
 body {
    margin: 0 auto;
    max-width: 1000px;
-  /* background: url('assets/img/MerkleForest.jpg') no-repeat center; */
-   background-size:     cover;                      /* <------ */
    display: flex;
    flex-direction: column;
    height: 100%;
    font-family: 'Source Sans Pro', calibri, Arial, sans-serif !important;
    min-height: 550px;
-   color:rgb(8, 8, 8);
+   background-color: darkolivegreen;
+   color:rgb(252, 254, 253);
+}
+button {
+   color: beige;
+   background-color: blue;
+}
+button:hover {
+   background-color: red;
+   font-family: Arial;
+   color:  black;
+  border: 5pc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: hand;
 }
 footer { color: rgb(255, 255, 255) }
 .content {
@@ -26,3 +38,11 @@ span {
    background: #ccc;
    padding: 5px;
 }
+.row {
+   display: flex;
+ }
+ 
+ .column {
+   flex: 33.33%;
+   padding: 5px;
+ }

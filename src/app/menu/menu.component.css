@@ -2,12 +2,13 @@ host {margin: 0; padding: 0}
 ul {list-style-type: none; padding: 0;}
 li {display: inline-block;}
 a {
-    border: 1px solid #666666;
-    background: #008300; border-radius: 3px;
-    box-shadow: 1px 1px 5px rgb(145, 127, 30);
-    color: rgb(37, 39, 48);
-    font-weight: bold;
-    padding: 5px;
+    /* border: 1px solid #666666; */
+    /*background: #008300; border-radius: 3px;*/
+    /*box-shadow: 1px 1px 5px rgb(38, 2, 74); */
+    color: rgb(49, 76, 196);
+    /*font-weight: bold;*/
+    /*font: */
+    padding: 15px;
     text-decoration: none;
     }
 li + li a {margin-left: 20px;}
