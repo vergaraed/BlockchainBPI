@@ -2,8 +2,6 @@
 body {
    margin: 0 auto;
    max-width: 1000px;
-   /*background: url('assets/img/MerkleForest.jpg') no-repeat center;*/
-   background-size:     cover;                      /* <------ */
    display: flex;
    flex-direction: column;
    height: 100%;
