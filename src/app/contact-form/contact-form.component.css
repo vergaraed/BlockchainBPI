@@ -1,0 +1,25 @@
+input {
+    background-color: #fff;
+    border: 1px solid darkgray;
+    margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    padding: 0 10px;
+}
+.invalid-field {
+    border: 1px solid red;
+}
+.valid-field {
+    border: 1px solid green;
+}
+.error {
+    color: red;
+}
+.sent {
+    color: green;   
+}
+button {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}

@@ -1,1 +1,33 @@
-<p>Contact Us!  (917) 727-8605</p>
+
+<form novalidate name="contactForm">
+    <div ng-messages="contactForm.$valid" ng-if="contactForm.$submitted">
+        <div ng-message="valid">
+            <span class="sent">Your message has been sent!</span>
+        </div>
+    </div>
+
+    <input ng-class="{'invalid-field': contactForm.nameField.$touched || contactForm.$submitted, 'valid-field': contactForm.nameField.$valid}" 
+        type="text" name="nameField" placeholder="Full name*"
+        ng-model="contactName"
+        minlength="2"
+        required >
+    <div ng-messages="contactForm.nameField.$error" ng-if="contactForm.$submitted || contactForm.nameField.$touched">
+        <div ng-message="required">
+            <span class="error">Name is required</span>
+        </div>
+        <div ng-message="minlength">
+            <span class="error">Name must be 2 characters long</span>
+        </div>
+    </div>
+
+    <input ng-class="{'invalid-field': contactForm.emailField.$touched || contactForm.$submitted, 'valid-field': contactForm.emailField.$valid}"
+        type="email" name="emailField" placeholder="Email*"
+        ng-model="contactEmail"
+        required>
+    <div ng-messages="contactForm.emailField.$error" ng-if="contactForm.$submitted || contactForm.emailField.$touched">
+        <div ng-message="required"><span class="error">Email is required</span></div>
+        <div ng-message="email"><span class="error">Email is not valid</span></div>
+    </div>
+
+    <button class="send-btn" type="submit">Send form</button>
+  </form>
