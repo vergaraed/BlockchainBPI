@@ -7,11 +7,11 @@ body {
    height: 100%;
    font-family: 'Source Sans Pro', calibri, Arial, sans-serif !important;
    min-height: 550px;
-   background-color: rgb(236, 244, 218);
-   color:rgb(1, 82, 41);
+   background-color: rgb(255, 255, 255);
+   color:rgb(0, 0, 0);
 }
 button {
-   color: beige;
+   color: rgb(0, 3, 101);
    background-color: rgb(41, 41, 53);
 }
 button:hover {
